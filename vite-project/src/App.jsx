@@ -1,13 +1,16 @@
-import Demo from './Demo';
+import React from 'react';
+import Header from './component/Header';
+import Hero from './component/Hero';
+import ContactForm from './component/ContactForm';
+import Footer from './component/Footer';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello React!</h1>
-      <p>My React project is working.</p>
-      
-      <input placeholder="My Name" />
-      <button>submit</button>
+      <Header/>
+      <Hero/>
+      <ContactForm/>
+      <Footer/>
     </div>
   );
 };
